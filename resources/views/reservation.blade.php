@@ -13,7 +13,7 @@
     <div class="paralax">
         <div class="info">
             <h1>Experience Italian Food at Its Finest</h1>
-            <a href="#">Make a Reservation</a>
+            <a href="#reserve">Make a Reservation</a>
         </div>
         <div class="shadow"></div>
     </div>
@@ -60,6 +60,32 @@
             <div class="swiper-pagination"></div>
           </div>
     </div>
+
+
+
+    <div id="reserve"class="reserve-form-container">
+        <h1>Reservation</h1>
+        <form action="" method="POST">
+            @csrf
+            <input type="date" name="" id="">
+            <select name="time" id="time">
+                <option value="">Select Time</option>
+                <option value="">11:00 AM</option>
+                <option value="">12:00 PM</option>
+                <option value="">01:00 PM</option>
+                <option value="">02:00 PM</option>
+                <option value="">03:00 PM</option>
+                <option value="">04:00 PM</option>
+                <option value="">05:00 PM</option>
+                <option value="">06:00 PM</option>
+                <option value="">07:00 PM</option>
+                <option value="">08:00 PM</option>
+                <option value="">09:00 PM</option>
+            </select>
+
+        </form>
+    </div>
+
 
 
 </div>
