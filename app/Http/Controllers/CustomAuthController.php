@@ -60,10 +60,11 @@ class CustomAuthController extends Controller{
       return User::create([
         'name' => $data['name'],
         'email' => $data['email'],
+        'account_type' => '1',
         'phone' => $data['phone'],
         'password' => Hash::make($data['password'])
       ]);
-    } 
+    }
 
     public function dashboard(){
         if(Auth::check()){

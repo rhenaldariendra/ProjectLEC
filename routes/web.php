@@ -29,7 +29,9 @@ Route::get('/reservation', function () {
 Route::get('/menu', function (){
     return view('menu');
 });
-
+Route::get('/tes', function (){
+    return view('changePassword');
+});
 
 
 Route::get('reservation', [CustomAuthController::class, 'reserve'])->name('login');
