@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Petemoss&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    height: 100vh;
+}
+.container-all{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.containers{
+    height: 100vh;
+    width: 25%;
+    background-color: black;
+}
+.menus{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.totop{
+    padding-top: 50px;
+    background-color: rgba(88, 88, 88, 0.4);
+}
+.totop a{
+    padding: 0 15px;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Petemoss', cursive;
+    font-size: 80px;
+    border-radius: 10px;
+    /* background: url('/asset/img/menu-background.png'); */
+}
+
+.containers.a{
+    background: url('/asset/img/pasta.jpeg');
+    background-size: cover;
+    background-position-x: center;
+}
+.containers.b{
+    background: url('/asset/img/pizza.jpeg');
+    background-size: cover;
+    background-position-x: center;
+}
+.containers.c{
+    background: url('/asset/img/gelato.jpeg');
+    background-size: cover;
+    /* background-position-x: center; */
+}
+.containers.d{
+    background: url('/asset/img/beverages.jpeg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.596);
+    visibility: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay a{
+    color: #EEEBDD;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Petemoss', cursive;
+    font-size: 80px;
+    cursor: pointer;
+    transition: all ease 0.3;
+}
+
+.containers:hover .overlay{
+    visibility: visible;
+}
+
+
+
+.menu-container{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list-menu {
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px 100px 40px;
+    background: url('/asset/img/menu-background.png');
+}
+
+.menu-container.pizza{
+    background: url('/asset/img/bg_menu.jpeg');
+    background-size: 100%;
+}
+.menu-container.pasta {
+    background: url('/asset/img/pasta_bg.jpeg');
+    background-size: 100%;
+}
+.menu-container.dessert {
+    background: url('/asset/img/dessert_bg.jpeg');
+    background-size: 100%;
+}
+.menu-container.beverage {
+    background: url('/asset/img/beverage_bg.jpeg');
+    background-size: 100%;
+}
+
+
+
+.top-menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.left-top, .right-top{
+    width: 40%;
+}
+
+.top-menu h5{
+    padding-bottom: 5px;
+    font-family: 'Amiri', serif;
+    color: black;
+}
+
+.center-top{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.top-menu .center-top img{
+    width: auto;
+    height: 60px;
+}
+.garis-top{
+    height:1px;
+    width: 100%;
+    background-color: rgba(112, 112, 112, 0.575);
+}
+
+
+.title h1{
+    color: #630000;
+    padding: 0 10px;
+    font-family: 'Amiri', serif;
+}
+
+.title{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+
+.garis{
+    width: 10%;
+    height: 2px;
+    background-color: #630000;
+}
+.tes{
+    width: 100%;
+    height: fit-content;
+    border: 1px solid black;
+}
+
+.all-menu{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+
+
+
+.items{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease;
+}
+
+

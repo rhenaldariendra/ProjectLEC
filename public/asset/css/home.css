@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Petemoss&display=swap');
+
+.content-2{
+    display: flex;
+    padding-top: 100px;
+    width:100vh;
+    justify-content: space-between;
+    position: relative;
+}
+.video-container video{
+    position: relative;
+    width:100%;
+    filter: brightness(40%);
+}
+.content2-left{
+    position: relative;
+    width: 500px;
+    font-size: 24px;
+    left:106px;
+    z-index: 4;
+}
+.title-container{
+    background-color:#630000;
+    display: flex;
+    width: 600px;
+    height: 110px;
+    margin-top: 20px;
+    align-items: center;
+}
+.title-container h1{
+    margin-left: 15px;
+    color: #EEEBDD;
+}
+
+.content2-right{
+    position: relative;
+    /* z-index: 500; */
+    right: 110px;
+    /* top: 957px; */
+}
+
+.content2-left p{
+    padding: 50px 0 80px;
+    text-align: justify;
+    margin-left: 15px;
+    width:400px;
+    color: #EEEBDD;
+}
+
+
+.content2-left a{
+    color: #630000;
+    padding: 10px 30px 10px;
+    font-size: 25px;
+    background-color: #EEEBDD;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.content-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.content3-bottom{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.content3-bottom p{
+    padding-left: 60px;
+    width: 700px;
+    color:#EEEBDD;
+}
+
+.content-3 h1{
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Petemoss', cursive;
+    font-size: 80px;
+    font-weight: 400;
+    color:#EEEBDD;
+}
+

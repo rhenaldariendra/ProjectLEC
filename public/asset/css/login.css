@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+html{
+    background-image:url("/asset/img/login_bg.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    width:100%;
+    height:100%;
+}
+input{
+    border-style: none;
+    width: 100%;
+    border-radius: 10px;
+    height: 30px;
+}
+
+button{
+    border-style: none;
+    /* cursor: pointer; */
+    margin-top: 10px;
+    width: 100%;
+}
+
+.container{
+    height: fit-content;
+    width: 400px;
+    padding: 0 50px 30px;
+    background-color:#EEEBDD;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+
+}
+.container img{
+    filter: brightness(0) saturate(100%) invert(9%) sepia(44%) saturate(5385%) hue-rotate(351deg) brightness(97%) contrast(115%);
+    transition: none;
+    height: 40px;
+    width: auto;
+    /* padding-left: 40px; */
+}
+
+.cont-1 a{
+    color: #630000;
+    font-weight: bold;
+}
+.cont-1{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    text-align: right;
+    padding: 40px 0 20px;
+}
+
+.login-google{
+    width: 70%;
+    padding: 14.6px 20px;
+    background-color: #630000;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.second-container{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.login-google a{
+    font-size: 25px;
+    color: #EEEBDD;
+}
+.gotohome{
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #1B1717;
+}
+.gotohome img{
+    height: 34px;
+    filter: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.password-forgot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-container{
+    width: 100%;
+    color: #1B1717;
+    padding: 10px 0;
+}
+
+.input-container input{
+    padding-left: 15px;
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.login-btn{
+    cursor: pointer;
+    /* margin-top: 20px; */
+    height: 40px;
+    width: 100%;
+    color: #EEEBDD;
+    border-radius: 10px;
+    background-color: #630000;
+}
+
+.password-forgot a{
+    color: #630000;
+}
+
+.errors{
+    color: white;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 95%;
+    background-color: #E57373;
+}
+
